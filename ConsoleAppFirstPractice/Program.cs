@@ -6,10 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppFirstPractice
 {
-    class Program
-    {
-        static void Main(string[] args)
+    
+        class Hello
         {
+            static void Main()
+            {
+                Console.WriteLine("Hello World");
+
+                Console.WriteLine("Press any key to exit");
+                Console.ReadKey();
+            }
         }
-    }
-}
+    
